@@ -37,5 +37,10 @@ def analyze_image():
     return jsonify(result), 200
 
 
+@app.route('/status', methods=['GET'])
+def status():
+    return jsonify({"status": "Flask app is running"}), 200
+
+
 if __name__ == '__main__':
     app.run(debug=True)

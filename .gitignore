@@ -1,1 +1,7 @@
 .env
+dailyj_venv
+dailyj_venv/bin
+dailyj_venv/lib
+dailyj_venv/pyvenv.cfg
+dailyj_venv/include
+/dailyj_venv
